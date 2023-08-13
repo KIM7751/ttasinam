@@ -1,0 +1,79 @@
+/* 전체 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+section {
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  /* 3개의 동일한 너비의 열을 생성 */
+    gap: 2rem;  /* 상품 간의 간격 설정 */
+}
+
+/* 상품 카드 스타일 */
+article {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    background-color: white;
+    aspect-ratio: 1 / 1;  /* 상품 카드를 정사각형으로 유지 */
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* 이미지가 상품 카드에 꽉 차게 */
+    border-bottom: 1px solid #ccc;  /* 이미지 아래에 경계선 추가 */
+}
+
+article h3 {
+    margin: 0.5rem 0; /* 상품 이름의 위아래 마진 설정 */
+    font-size: 1.2rem; /* 상품 이름의 폰트 크기 설정 */
+}
+
+article p {
+    margin: 0.3rem 0; /* 상품 설명과 가격의 위아래 마진 설정 */
+    font-size: 1rem; /* 상품 설명과 가격의 폰트 크기 설정 */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* ... 기존 스타일 ... */
+
+/* 바로 구매 버튼 스타일 */
+button.buy-now {
+    background-color: #ff4500;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+button.buy-now:hover {
+    background-color: #ff6347;
+}
+
+
+
