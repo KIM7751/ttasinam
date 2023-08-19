@@ -1,5 +1,26 @@
-// 상품 데이터
+// 상품 데이터, [] : 베열, {} : 객체
 const products = [
+    {
+        id: 1,
+        name: "레트로 시계",
+        description: "클래식한 레트로 디자인의 아날로그 시계.",        
+        price: "₩10,000",
+        imageUrl: "https://picsum.photos/id/1/500/500"
+    },
+    {
+        id: 2,
+        name: "커피 머그컵",
+        description: "아침의 시작, 따뜻한 커피와 함께.",
+        price: "₩8,000",
+        imageUrl: "https://picsum.photos/id/20/500/500"
+    },
+    {
+        id: 3,
+        name: "트래블 백팩",
+        description: "편안한 여행을 위한 필수 백팩.",
+        price: "₩25,000",
+        imageUrl: "https://picsum.photos/id/30/500/500"
+    },
     {
         id: 4,
         name: "스타일리시 모자",
